@@ -80,7 +80,7 @@ a{
     width: 100%;
     object-fit: cover;
 }
-.right, .left-1, .left-2, .left-3, .second, .footer{
+.right, .left-1, .left-2, .left-3, .section-2, .footer{
     margin-top: 20px;
     padding: 10px;
     background-color: #ededed;
