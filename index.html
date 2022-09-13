@@ -8,7 +8,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Chela+One&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
@@ -29,15 +33,15 @@
                     <li><a href="#">Tarifs</a></li>
                     <li><a href="#">Accès</a></li>
                 </ul>
-                <form method="GET">
-                    <input type="text" name="search" placeholder="rechercher">
+                <form method="GET" role="search">
+                    <input type="text" name="search" placeholder="rechercher" aria-label="Rechercher sur le site">
                 </form>
             </nav>
         </header>
 
         <main class="main">
             <section class="section-1 first">
-                <article class="right">
+                <article class="right" aria-label="A la une">
                     <div>
                         <h2>La une</h2>
                         <picture>
@@ -47,9 +51,12 @@
                         <h3>Ad officia officia</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati assumenda voluptates modi a, laboriosam quae ullam molestias, esse ratione asperiores unde facere cum commodi! Dolorem minus nesciunt iste optio. Quod.</p>
                         <p>Aut culpa qui cupiditate ratione est numquam, officia repudiandae placeat aliquid doloribus, tenetur ipsam ea. Distinctio asperiores, perferendis beatae corrupti est sequi quasi neque cumque repellendus reiciendis aut! Numquam, blanditiis.</p>
+                        <p>Aut culpa qui cupiditate ratione est numquam, officia repudiandae placeat aliquid doloribus, tenetur ipsam ea. Distinctio asperiores, perferendis beatae corrupti est sequi quasi neque cumque repellendus reiciendis aut! Numquam, blanditiis.</p>
+                        <p>Aut culpa qui cupiditate ratione est numquam, officia repudiandae placeat aliquid doloribus, tenetur ipsam ea. Distinctio asperiores, perferendis beatae corrupti est sequi quasi neque cumque repellendus reiciendis aut! Numquam, blanditiis.</p>
+                        <p>Aut culpa qui cupiditate ratione est numquam, officia repudiandae placeat aliquid doloribus, tenetur ipsam ea. Distinctio asperiores, perferendis beatae corrupti est sequi quasi neque cumque repellendus reiciendis aut! Numquam, blanditiis.</p>
                         <p>
-                            Dolores nam dolore cumque voluptatibus tempora assumenda harum iusto. Consequatur quo ipsum ex facere dolorum sapiente, commodi illum perspiciatis ea consequuntur veniam similique quasi dignissimos, atque, repellendus repellat ad eaque!
-                            <a href="#">Lire la suite</a>
+                            Dolores nam dolore commodi illum perspiciatis ea consequuntur veniam similique quasi dignissimos, atque, repellendus repellat ad eaque!
+                            <a href="#" aria-label="Lire la suite de Ad officia officia">Lire la suite</a>
                         </p>
                     </div>
                     <div class="buttons">
@@ -58,10 +65,10 @@
                     </div>
                 </article>
 
-                <aside class="left">
+                <aside class="left" aria-label="Informations complémentaires">
                     <div class="left-1">
                         <h2>Horaire</h2>
-                        <table class="schedule">
+                        <table class="schedule" role="programme" aria-label="Programmation des films">
                             <tr>
                                 <th>Heure</th>
                                 <th>Film</th>
@@ -94,10 +101,10 @@
                         </table>
                     </div>
 
-                    <div class="left-2">
+                    <div class="left-2 hcard">
                         <h2>Adresse</h2>
-                        <h3>Le Clud 118</h3>
-                        <p>118, rue du Club - 18100 Oubytes</p>
+                        <h3 class="p-org">Le Clud 118</h3>
+                        <p><span class="p-street">118, rue du Club</span> - <span class="p-postal-code">18100</span> <span class="p-localty">Oubytes</span></p>
                     </div>
 
                     <div class="left-3">
@@ -115,7 +122,7 @@
                 </aside>
             </section>
 
-            <section class="section-2">
+            <section class="section-2" aria-label="A découvrir cette semaine">
                 <h2>Cette semaine</h2>
                 <div class="second">
                     <div class="second-1">
@@ -147,7 +154,7 @@
             <ul>
                 <li><a href="#">CLUB 108</a></li>
                 <li><a href="#">Tarifs et horaires</a></li>
-                <li><a href="#">A proximioté</a></li>
+                <li><a href="#">A proximité</a></li>
                 <li><a href="#">Séance privée</a></li>
                 <li><a href="#">Parking et accès</a></li>
                 <li><a href="#">Carte club</a></li>
