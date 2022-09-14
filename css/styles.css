@@ -87,8 +87,6 @@ a{
     background-color: #ededed;
     box-shadow: 2px 2px 8px #858585;
 }
-
-
 .right img{
     height: 200px;
 }
@@ -161,6 +159,7 @@ tr:first-child{
 }
 
 
+/************* Stylisation du footer ************/
 .footer{
     display: flex;
     justify-content: space-between;
